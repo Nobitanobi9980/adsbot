@@ -10,6 +10,9 @@ import asyncio
 import contextlib
 from os import remove
 
+from keep_alive import keep_alive
+keep_alive()
+
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from decouple import config
 from telethon import TelegramClient, events
