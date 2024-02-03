@@ -11,7 +11,7 @@ import contextlib
 from os import remove
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from dotenv import config
+from decouple import config
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 
