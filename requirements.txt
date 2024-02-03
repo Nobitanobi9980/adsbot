@@ -1,5 +1,5 @@
 telethon
-python3.7.10
+python
 apscheduler
 Flask==2.2.2
 gunicorn==20.1.0
