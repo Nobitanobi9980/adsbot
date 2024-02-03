@@ -3,5 +3,5 @@ python-decouple
 apscheduler
 Flask==2.2.2
 gunicorn==20.1.0
-pip install aiohttp==<desired_version>
+aiohttp==3.8.4
 
