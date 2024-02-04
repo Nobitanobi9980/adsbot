@@ -127,7 +127,7 @@ log.info(f"Starting scheduler with a {TIME_DELAY} second gap...")
 scheduler = AsyncIOScheduler()
 scheduler.add_job(send_msg, "interval", seconds=TIME_DELAY)
 scheduler.start()
-log.info("\n\nStarted.\n(c) @xditya.\n")
+log.info("\n\nStarted.\n(c) @Fatman_Big.\n")
 
 
 client.run_until_disconnected()
