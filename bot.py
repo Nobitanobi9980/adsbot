@@ -95,7 +95,7 @@ async def pm_msg(event):
     if event.sender_id not in PM_CACHE:
         await asyncio.sleep(random.randint(5, 10))
         await event.reply(PM_MSG_1)
-        PM_CACHE.update({event.sender_id: 1})
+        PM_CACHE[event.sender_id] = 1  # Update PM_CACHE here
     else:
         times = PM_CACHE[event.sender_id]
         if times == 1:
@@ -106,7 +106,7 @@ async def pm_msg(event):
             await asyncio.sleep(random.randint(5, 10))
             await event.reply(PM_MSG_3, file=PM_MEDIA)
             times += 1
-        PM_CACHE.update({event.sender_id: times})
+        PM_CACHE[event.sender_id] = times  # Update PM_CACHE here
 
 
 async def send_msg():
