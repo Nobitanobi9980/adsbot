@@ -3,8 +3,8 @@
   "description": "spam ads, ofc.",
   "logo": "",
   "keywords": ["telegram", "telethon", "telegram-bot", "botzhub"],
-  "repository": "https://github.com/xditya/spamAdsBot",
-  "website": "xditya.me",
+  "repository": "https://github.com/Nobitanobi9980/adsbot",
+  "website": "google.com",
   "success_url": "https://t.me/BotzHub",
   "env": {
     "SESSION": {
