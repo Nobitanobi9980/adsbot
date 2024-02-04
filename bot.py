@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# < (c) @xditya , https://xditya.me >
-# ADsBot, 2021.
+# < (c) @Fatman_Big >
+# ADsBot, 2024.
 
 # Paid source, re-distributing without contacting the code owner is NOT allowed.
 
